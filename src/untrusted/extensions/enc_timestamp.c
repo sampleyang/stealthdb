@@ -11,6 +11,10 @@
 #include "utils/datetime.h"
 #include "utils/timestamp.h"
 
+#ifndef DTK_INVALID
+#define DTK_INVALID 7
+#endif
+
 extern bool debugMode;
 
 static TimeOffset time2t(const int hour, const int min, const int sec, const fsec_t fsec)
