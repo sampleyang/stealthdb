@@ -8,7 +8,7 @@
 #include "untrusted/extensions/stdafx.h"
 #include "utils/int8.h"
 #include "utils/numeric.h"
-#include <float.h>
+#include "utils/float.h"
 
 extern bool debugMode;
 
